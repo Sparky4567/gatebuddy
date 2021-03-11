@@ -19,7 +19,6 @@ window.addEventListener("load", () => {
 					navigator.geolocation.getCurrentPosition((pos) => {
 						let lat = pos.coords.latitude;
 						let lon = pos.coords.longitude;
-						Swal.fire(lat + long, "", "error");
 						db.put({
 							_id: "marker",
 							latitude: lat,
