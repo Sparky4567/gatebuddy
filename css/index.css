@@ -1,0 +1,17 @@
+.mainsheet {
+	background-color: #212121;
+	min-height: 100vh !important;
+}
+
+.mcard {
+	max-height: 55rem;
+	width: 100% !important;
+}
+
+.mcard img {
+	max-height: 18rem;
+}
+
+body {
+	overflow-y: hidden !important;
+}
